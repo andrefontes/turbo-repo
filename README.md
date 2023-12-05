@@ -16,8 +16,9 @@
 - Restaurante
 - Área de entregas
 - Área dos clientes
+- Etc
 
-<p>Projetos diferente e ainda sim compartilhar um terecho de código específico entre esses vários projetos</p>
+<p>Projetos diferentes e ainda sim, compartilhar um trecho de código específico entre esses vários projetos</p>
 
 
 

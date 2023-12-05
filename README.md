@@ -5,10 +5,10 @@ Criar aplicação:
 npx create-turbo@latest
 ```
 
-? Where would you like to create your turborepo? .
-? Which package manager do you want to use? yarn workspaces
+<i>? Where would you like to create your turborepo?</i> `.`<br />
+<i>? Which package manager do you want to use?</i> `yarn workspaces`<br />
 
-Sugestão: npx turbo login
+Sugestão: `npx turbo login`
 
 Para conectar-se ao seu cache remoto, execute o seguinte em qualquer turborepo: npx turbo link
  
@@ -18,7 +18,7 @@ Rodar Aplicação:
 npm run dev
 ```
 
-Acesso pelo browser:
+Acesso pelo browser:<br />
 http://localhost:3000 (examples/basic web) <br />
 http://localhost:3001 (examples/basic docs) <br />
 

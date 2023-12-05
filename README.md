@@ -1,3 +1,26 @@
+# Criando uma Aplicação do Zero a Nuvem Usando o TurboRepo
+
+## NEXT.JS (Renderização React no Lado Servidor)
+
+
+### Repositório em comum para várias aplicações e utilizando os serviços da Vercel.
+
+<p>TuboRepo é uma ferramenta de build que te ajuda manter dentro de um único repositório vários projetos.</p>
+<p>Existe uma questão de dependência, pode utilizar, por exemplo, uma pasta <b><i>common</i></b>, e nesse projeto, você tem uma série de códigos e componentes visuais que você quer compartilhar em vários projetos e é nesse aspécto que o TurboRepo entra.</p>
+
+<p>Ele consegue entender todas as dependências do seu projeto e fazer build na ordem certa, paralelizar o build e você consegue colocar dentro de um mesmo diretório, por exemplo, vários projetos.</p>
+
+- Area administrativa
+- Área do Cliente
+- Área do entregadores 
+- Restaurante
+- Área de entregas
+- Área dos clientes
+
+<p>Projetos diferente e ainda sim compartilhar um terecho de código específico entre esses vários projetos</p>
+
+
+
 Vídeo tutorial: https://www.youtube.com/watch?v=SQy5we_2L7Y
 
 Criar aplicação:
@@ -43,9 +66,15 @@ yarn start
 ```
 
 
+
 ### DEPLOY
 #### Comandos config site VERCEL
 https://vercel.com/<br />
+
+Obs.: Atualizar o arquivo yarn.lock com esse comando quando ocorrer erro no DEPLOY:
+```sh
+npm update
+```
 
 #### Root Directory:
 `apps/web`<br />

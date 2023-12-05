@@ -46,11 +46,11 @@ yarn start
 ### DEPLOY
 #### Comandos config site VERCEL
 
-#### Root Directory:<br />
-apps/web<br />
+#### Root Directory:
+`apps/web`<br />
 
-#### Build Command:<br /> 
-cd ../.. && npm run build:web<br />
+#### Build Command:
+`cd ../.. && npm run build:web`<br />
 
 turbo run build --scope=*build-tools* --no-deps --includeDependencies<br />
 turbo run build --scope=*build-tools* --no-deps --include-dependencies<br />
@@ -59,8 +59,8 @@ package.json<br />
     <b>"build:web": "turbo run build --scope=web --no-deps --include-dependencies",</b><br />
     ...<br />
 
-#### Install Command:<br />
-yarn install
+#### Install Command:
+`yarn install`
 
 
 

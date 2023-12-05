@@ -45,6 +45,7 @@ yarn start
 
 ### DEPLOY
 #### Comandos config site VERCEL
+https://vercel.com/<br />
 
 #### Root Directory:
 `apps/web`<br />
@@ -59,8 +60,14 @@ package.json<br />
     <b>"build:web": "turbo run build --scope=web --no-deps --include-dependencies",</b><br />
     ...<br />
 
+#### Output Directory:
+`Next.js default`<br />
+
 #### Install Command:
 `yarn install`
+
+#### Development Command:
+`next`<br />
 
 
 

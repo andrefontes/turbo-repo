@@ -1,56 +1,70 @@
-Vídeo tutorial:
-https://www.youtube.com/watch?v=SQy5we_2L7Y
-
+Vídeo tutorial: https://www.youtube.com/watch?v=SQy5we_2L7Y
 
 Criar aplicação:
+```sh
 npx create-turbo@latest
+```
+
 ? Where would you like to create your turborepo? .
 ? Which package manager do you want to use? yarn workspaces
 
-We suggest that you begin by typing:
-npx turbo login
+Sugestão: npx turbo login
 
-To connect to your Remote Cache, run the following in any turborepo:
-npx turbo link
-  
+Para conectar-se ao seu cache remoto, execute o seguinte em qualquer turborepo: npx turbo link
+ 
 
 Rodar Aplicação:
+```sh
 npm run dev
+```
 
 Acesso pelo browser:
-http://localhost:3000 (examples/basic web)
-http://localhost:3001 (examples/basic docs)
-
+http://localhost:3000 (examples/basic web) <br />
+http://localhost:3001 (examples/basic docs) <br />
 
 
 https://tsdx.io/
+```sh
 cd .\packages\ 
+```
+```sh
 npx tsdx create shared
+```
 
+```sh
 cd .\shared\
-npm start or yarn start
+```
+```sh 
+npm start 
+```
+or 
+```sh
+yarn start
+```
 
 
-DEPLOY
-Comandos config site VERCEL
+DEPLOY<br />
+Comandos config site VERCEL<br />
 
-Root Directory:
-apps/web
-
-Build Command: 
-cd ../.. && npm run build:web
-
-turbo run build --scope=*build-tools* --no-deps --includeDependencies
-turbo run build --scope=*build-tools* --no-deps --include-dependencies
-package.json
-  "scripts": {
-    "build:web": "turbo run build --scope=web --no-deps --include-dependencies",
-    ...
-
-Install Command:
+Root Directory:<br />
+apps/web<br />
+<br />
+Build Command:<br /> 
+cd ../.. && npm run build:web<br />
+<br />
+turbo run build --scope=*build-tools* --no-deps --includeDependencies<br />
+turbo run build --scope=*build-tools* --no-deps --include-dependencies<br />
+package.json<br />
+  "scripts": {<br />
+    "build:web": "turbo run build --scope=web --no-deps --include-dependencies",<br />
+    ...<br />
+<br />
+Install Command:<br />
 yarn install
 
 
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 
 # Turborepo starter
 

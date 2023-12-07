@@ -21,6 +21,9 @@
 <p>Projetos diferentes e ainda sim, compartilhar um trecho de código específico entre esses vários projetos</p>
 
 
+<b>Exemplo no link:<b> https://turborepo.brasilnarede.com.br/
+
+
 
 Vídeo tutorial: https://www.youtube.com/watch?v=SQy5we_2L7Y
 

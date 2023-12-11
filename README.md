@@ -104,7 +104,9 @@ package.json<br />
 
 
 ## Install Tailwind CSS with Next.js
-https://tailwindcss.com/docs/guides/nextjs
+https://www.youtube.com/watch?v=NYhOkNLV6KM <br />
+https://tailwindcss.com/docs/guides/nextjs <br />
+
 
 ### Precisa fazer a instalação nos projetos, tanto no PACKAGES/* (PACKAGES/UI), quanto no APPS/* (APPS/DOCS e APPS/WEB)
 

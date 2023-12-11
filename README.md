@@ -103,6 +103,61 @@ package.json<br />
 `next`<br />
 
 
+## Install Tailwind CSS with Next.js
+https://tailwindcss.com/docs/guides/nextjs
+
+### Precisa fazer a instalação nos projetos, tanto no PACKAGES/* (PACKAGES/UI), quanto no APPS/* (APPS/DOCS e APPS/WEB)
+
+<b>-w</b> é workspace que eu quero utilizar, <b>'packages/ui'</b> onde eu quero criar.<br />
+será criado: <b>packages/ui/node_modules/postcss</b>, o resto, compartilha com outros projetos:<br /> 
+<br /><br />
+<b>pakages/ui/package.json, apps/docs/package.json e apps/web/package.json:</b><br />
+{<br />
+"tailwindcss": "^3.3.6",<br />
+...<br />
+<br />
+
+```sh
+npm install -D tailwindcss postcss autoprefixer -w='packages/ui'
+```
+```sh
+npm install -D tailwindcss postcss autoprefixer -w='apps/docs'
+```
+```sh
+npm install -D tailwindcss postcss autoprefixer -w='apps/web'
+```
+
+<br /><br />
+Esse comando deve ser feito em cada projeto:<br />
+cd apps/web/<br />
+cd apps/docs/<br />
+cd package/ui/<br />
+
+```sh
+npx tailwindcss init -p
+```
+
+Agora, todos os projetos com  "postcss.config.js" e "tailwind.config.js"<br />
+Alterar em todas as pastas dos projetos o arquivo tailwind.config.js:<br />
+de :<br />
+content: [],<br />
+<br />
+
+para (apps/docs e apps/web):<br />
+  content: [<br />
+    "./app/**/*.{html,js,ts,jsx,tsx}",<br />
+    "./components/**/*.{html,js,ts,jsx,tsx}",<br />
+    "../../packages/ui/**/*.{html,js,ts,jsx,tsx}"<br />
+  ],<br />
+<br />
+<br />
+para (packages/ui):<br />
+  content: [<br />
+    "./**/*.{html,js,ts,jsx,tsx}"<br />
+  ],<br />
+<br />
+
+
 
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * 
 

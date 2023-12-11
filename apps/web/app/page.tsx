@@ -1,6 +1,8 @@
 import Image from "next/image";
+import { Button } from "@repo/ui/button";
 import { Card } from "@repo/ui/card";
 import { Code } from "@repo/ui/code";
+import { Label } from "@repo/ui/label";
 import styles from "./page.module.css";
 
 function Gradient({
@@ -57,13 +59,15 @@ export default function Page(): JSX.Element {
         <p>
           examples/basic&nbsp;
           <Code className={styles.code}>web</Code>
+          <Label></Label>
+          <Button></Button>
         </p>
         <div>
           <a
             href="https://vercel.com?utm_source=create-turbo&utm_medium=basic&utm_campaign=create-turbo"
             rel="noopener noreferrer"
             target="_blank"
-          >
+          > 
             By{" "}
             <Image
               alt="Vercel Logo"

@@ -1,33 +1,33 @@
-# Criando uma AplicaÁ„o do Zero a Nuvem Usando o TurboRepo
+# Criando uma Aplica√ß√£o do Zero a Nuvem Usando o TurboRepo
 
-## NEXT.JS (RenderizaÁ„o React no Lado Servidor)
+## NEXT.JS (Renderiza√ß√£o React no Lado Servidor)
 
 
-### RepositÛrio em comum para v·rias aplicaÁıes e utilizando os serviÁos da Vercel.
+### Reposit√≥rio em comum para v√°rias aplica√ß√µes e utilizando os servi√ßos da Vercel.
 
-<p>TuboRepo È uma ferramenta de build que te ajuda manter dentro de um ˙nico repositÛrio v·rios projetos.</p>
-<p>Existe uma quest„o de dependÍncia, pode utilizar, por exemplo, uma pasta <b><i>common</i></b>, e nesse projeto, vocÍ tem uma sÈrie de cÛdigos e componentes visuais que vocÍ quer compartilhar em v·rios projetos e È nesse aspÈcto que o TurboRepo entra.</p>
+<p>TuboRepo √© uma ferramenta de build que te ajuda manter dentro de um √∫nico reposit√≥rio v√°rios projetos.</p>
+<p>Existe uma quest√£o de depend√™ncia, pode utilizar, por exemplo, uma pasta <b><i>common</i></b>, e nesse projeto, voc√™ tem uma s√©rie de c√≥digos e componentes visuais que voc√™ quer compartilhar em v√°rios projetos e √© nesse asp√©cto que o TurboRepo entra.</p>
 
-<p>Ele consegue entender todas as dependÍncias do seu projeto e fazer build na ordem certa, paralelizar o build e vocÍ consegue colocar dentro de um mesmo diretÛrio, por exemplo, v·rios projetos.</p>
+<p>Ele consegue entender todas as depend√™ncias do seu projeto e fazer build na ordem certa, paralelizar o build e voc√™ consegue colocar dentro de um mesmo diret√≥rio, por exemplo, v√°rios projetos.</p>
 
 - Area administrativa
-- ¡rea do Cliente
-- ¡rea do entregadores 
+- √Årea do Cliente
+- √Årea do entregadores 
 - Restaurante
-- ¡rea de entregas
-- ¡rea dos clientes
+- √Årea de entregas
+- √Årea dos clientes
 - Etc
 
-<p>Projetos diferentes e ainda sim, compartilhar um trecho de cÛdigo especÌfico entre esses v·rios projetos</p>
+<p>Projetos diferentes e ainda sim, compartilhar um trecho de c√≥digo espec√≠fico entre esses v√°rios projetos</p>
 
 
 <b>Exemplo no link:<b> https://turborepo.brasilnarede.com.br/
 
 
 
-VÌdeo tutorial: https://www.youtube.com/watch?v=SQy5we_2L7Y
+V√≠deo tutorial: https://www.youtube.com/watch?v=SQy5we_2L7Y
 
-### Criar aplicaÁ„o:
+### Criar aplica√ß√£o:
 ```sh
 npx create-turbo@latest
 ```
@@ -35,17 +35,17 @@ npx create-turbo@latest
 <i>? Where would you like to create your turborepo?</i> `.`<br />
 <i>? Which package manager do you want to use?</i> `yarn workspaces`<br />
 
-Sugest„o: `npx turbo login`
+Sugest√£o: `npx turbo login`
 
 Para conectar-se ao seu cache remoto, execute o seguinte em qualquer turborepo: npx turbo link
  
 
-### Instale a vers„o mais recente doturbo
+### Instale a vers√£o mais recente doturbo
 ```sh
 yarn add turbo --save-dev --ignore-workspace-root-check
 ```
 
-### Rodar AplicaÁ„o:
+### Rodar Aplica√ß√£o:
 ```sh
 npm run dev
 ```
@@ -113,10 +113,10 @@ https://www.youtube.com/watch?v=NYhOkNLV6KM <br />
 https://tailwindcss.com/docs/guides/nextjs <br />
 
 
-### Precisa fazer a instalaÁ„o nos projetos, tanto no PACKAGES/* (PACKAGES/UI), quanto no APPS/* (APPS/DOCS e APPS/WEB)
+### Precisa fazer a instala√ß√£o nos projetos, tanto no PACKAGES/* (PACKAGES/UI), quanto no APPS/* (APPS/DOCS e APPS/WEB)
 
-<b>-w</b> È workspace que eu quero utilizar, <b>'packages/ui'</b> onde eu quero criar.<br />
-ser· criado: <b>packages/ui/node_modules/postcss</b>, o resto, compartilha com outros projetos:<br /> 
+<b>-w</b> √© workspace que eu quero utilizar, <b>'packages/ui'</b> onde eu quero criar.<br />
+ser√° criado: <b>packages/ui/node_modules/postcss</b>, o resto, compartilha com outros projetos:<br /> 
 <br /><br />
 <b>pakages/ui/package.json, apps/docs/package.json e apps/web/package.json:</b><br />
 {<br />

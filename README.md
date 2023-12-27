@@ -74,7 +74,17 @@ or
 yarn start
 ```
 
+### Build na pasta raiz:
+```sh
+npm run build
+```
 
+<b>Corrigir erro:</b> <i>Error: Parsing error: DeprecationError: 'originalKeywordKind' has been deprecated since v5.0.0 and can no longer be used. Use 'identifierToKeywordKind(identifier)' instead.</i>
+
+```sh
+npm install @typescript-eslint/eslint-plugin --save-dev
+npm install @typescript-eslint/parser --save-dev
+```
 
 ### DEPLOY
 #### Comandos config site VERCEL

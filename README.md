@@ -27,7 +27,7 @@
 
 Vídeo tutorial: https://www.youtube.com/watch?v=SQy5we_2L7Y
 
-Criar aplicação:
+### Criar aplicação:
 ```sh
 npx create-turbo@latest
 ```
@@ -40,7 +40,12 @@ Sugestão: `npx turbo login`
 Para conectar-se ao seu cache remoto, execute o seguinte em qualquer turborepo: npx turbo link
  
 
-Rodar Aplicação:
+### Instale a versão mais recente doturbo
+```sh
+yarn add turbo --save-dev --ignore-workspace-root-check
+```
+
+### Rodar Aplicação:
 ```sh
 npm run dev
 ```
